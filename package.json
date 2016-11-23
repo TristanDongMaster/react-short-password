@@ -1,8 +1,8 @@
 {
   "name": "react-short-password",
-  "version": "1.0.2",
+  "version": "0.0.2",
   "description": "React 短密组件",
-  "main": "./src/js/components/react-shortPw.js",
+  "main": "./src/js/components/react-short-password.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "webpack -p"

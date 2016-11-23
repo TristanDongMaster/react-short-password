@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import ShortSDK from './react-shortPw.js';
+import ShortSDK from './react-short-password.js';
 
 import '../../sass/_main.scss'
 
