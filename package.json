@@ -1,8 +1,8 @@
 {
-  "name": "short_password",
-  "version": "1.0.1",
+  "name": "react-short-password",
+  "version": "1.0.2",
   "description": "React 短密组件",
-  "main": "./src/app.js",
+  "main": "./src/js/components/react-shortPw.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "webpack -p"
@@ -16,14 +16,7 @@
     "web-components",
     "react-component",
     "component",
-    "react js",
-    "react scrollbar",
-    "scrollbar",
-    "slimscroll",
-    "custom scrollbar",
-    "react-scrollbar",
-    "perfect scrollbar",
-    "react slim scroll"
+    "react js"
   ],
   "author": "hoosin <hoosin.git@gmail.com>",
   "license": "MIT",
@@ -32,6 +25,7 @@
   },
   "homepage": "https://github.com/hoosin/react-shortPw#readme",
   "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
     "babel-preset-es2015": "^6.6.0",
@@ -47,5 +41,7 @@
   "dependencies": {
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
-  }
+  },
+  "_from": "short_password@1.0.2",
+  "_resolved": "http://registry.npm.taobao.org/short_password/download/short_password-1.0.2.tgz"
 }

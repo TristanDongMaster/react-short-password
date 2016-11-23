@@ -1,0 +1,9 @@
+*.lock
+.DS_Store
+.idea/
+*.lock
+*.log
+*.zip
+*.rar
+*.diff
+node_modules

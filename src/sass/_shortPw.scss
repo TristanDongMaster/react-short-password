@@ -1,0 +1,90 @@
+
+// 短密码
+.password-main-mod {
+  position: relative;
+  width: 3rem;
+  height: .4rem;
+  margin: 0 auto;
+  border: 1px solid #CCC;
+  border-radius: .05rem;
+  cursor: text;
+  .password-mod {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flexbox;
+    .current {
+      display: block;
+      -moz-box-flex: 1;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      text-align: center;
+      height: .39rem;
+      line-height: .39rem;
+      color: #999;
+      font-size: 13px;
+      border-left: 1px solid #CCC;
+      &:first-child {
+        border-left: none;
+      }
+      .pwd {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: #000;
+        visibility: hidden;
+        &.ed {
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  .password {
+    position: absolute;
+    left: -9999px;
+  }
+  span {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    visibility: hidden;
+    width: (3rem/6.1);
+    text-align: center;
+    box-shadow: inset 0 0.1rem 0.1rem rgba(82, 168, 236, .075), 0 0 0.8rem rgba(82, 168, 236, .6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(82, 168, 236, .075), 0 0 0.8rem rgba(82, 168, 236, .6);
+    border-radius: 2px;
+    transition: left .5s ease 0s;
+    -webkit-transition: left .5s ease 0s;
+    font-size: .2rem;
+  }
+  .flash {
+    display: none;
+    font-weight: 100;
+    animation: flash .8s steps(2, start) infinite;
+    -webkit-animation: flash .8s steps(2, start) infinite;
+  }
+}
+
+@keyframes flash {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes flash {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+//短密码 end
