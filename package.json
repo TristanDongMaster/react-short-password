@@ -1,6 +1,6 @@
 {
   "name": "react-short-password",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React 短密组件",
   "main": "./src/js/components/react-short-password.js",
   "scripts": {

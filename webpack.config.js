@@ -7,8 +7,8 @@ module.exports = {
   entry: __dirname + '/src/js/components/app.js',
 
   output: {
-    path: __dirname + '/build',
-    filename: 'build.js'
+    path: __dirname + '/dist',
+    filename: 'react-short-password.js'
   },
 
   module: {
@@ -25,7 +25,10 @@ module.exports = {
         test: /\.scss$/,
         loaders: ['style','css', 'sass']
       }
-    ]
+    ],
+    babel:{
+      presets:['es2015','react']
+    }
   },
 
   plugins: [
